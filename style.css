@@ -26,5 +26,10 @@ body {
         line-height: 1.5;
         letter-spacing: 0.5px;
     color: #2C2C2C;
+    text-decoration: none;
 
+}
+
+.page-nav a:hover{
+    color: #F07F2E;
 }
