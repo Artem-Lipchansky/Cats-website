@@ -5,4 +5,26 @@ body {
 .site-logo{
     color: #F07F2E;
     text-decoration: none;
+        
+        gap: 8px;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.6;
+}
+
+.page-nav{
+    display: flex;
+    gap: 40px;
+}
+
+.page-nav a{
+
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+    color: #2C2C2C;
+
 }
