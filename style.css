@@ -2,6 +2,22 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+.container{
+    width: 944px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border: 1px solid black;
+    
+}
+
 .site-logo{
     color: #F07F2E;
     text-decoration: none;
@@ -16,6 +32,7 @@ body {
 
 .page-nav{
     display: flex;
+    
     gap: 40px;
 }
 
