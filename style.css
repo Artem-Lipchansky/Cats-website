@@ -81,3 +81,8 @@ img {
         color: #2C2C2C;
         margin-bottom: 40px;
 }
+
+.cat-list{
+    display: flex;
+    gap: 40px;
+}
