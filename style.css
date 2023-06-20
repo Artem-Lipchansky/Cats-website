@@ -27,9 +27,9 @@ img {
 }
 
 .cat-list img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
-
 
 .container{
     width: 944px;
