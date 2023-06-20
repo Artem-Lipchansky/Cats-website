@@ -20,9 +20,14 @@ ul {
 
 img {
     display: block;
-    height: auto;
-    max-width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        height: auto;
         
+}
+
+.cat-list img {
+    max-width: 100%;
 }
 
 
@@ -90,8 +95,3 @@ img {
 }
 
 
-.cat-list li{
-    border-radius: 16px;
-    background-color: #F07F2E;
-    overflow: hidden;
-}
