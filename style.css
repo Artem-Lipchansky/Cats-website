@@ -13,9 +13,9 @@ margin: 0;
 }
 
 ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 img {
@@ -114,5 +114,9 @@ img {
 
 .cat-list h3{
     margin-bottom: 3px;
+}
+
+.section{
+    margin-top: 60px;
 }
 
