@@ -20,7 +20,8 @@ ul {
 
 img {
     display: block;
-    max-width: 100%;
+        max-width: 100%;
+    height: auto;
 }
 
 
@@ -88,10 +89,14 @@ img {
         line-height: 40px;
         letter-spacing: 0.5px;
         color: #2C2C2C;
-        margin-bottom: 40px;
+        
 }
 
-.cat-list{
+.section-text{
+    margin-top: 8px;
+}
+
+.cat-list {
     display: flex;
     gap: 40px;
     margin-top: 40px;
@@ -116,9 +121,23 @@ img {
     margin-bottom: 3px;
 }
 
+.cat-list p {
+    font-size: 16px;
+        color: var(--grey, #2C2C2C);
+        line-height: 24px;
+        letter-spacing: 0.5px;
+}
+
 .section{
     margin-top: 60px;
 }
+
+.page-footer{
+    height: 300px;
+    background-color: blue;
+}
+
+
 
 
 
@@ -126,4 +145,18 @@ img {
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+
+.gallery li {
+flex-basis: calc((100%  - 5 * 16px) / 6);
+border-radius: 16px;
+overflow: hidden;
+}
+
+
+.gallery li:hover{
+
+   filter: drop-shadow(8px 4px 16px rgba(0, 0, 0, 0.25)); 
 }
