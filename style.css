@@ -69,6 +69,12 @@ img {
 }
 
 
+.cat-list li img {
+    width: 100%;
+    height: auto;
+}
+
+
 /*  
 .container{
     width: 944px;
@@ -151,6 +157,7 @@ img {
 .cat-list li {
     overflow: hidden;
     border-radius: 16px;
+    height: 100%;
    
 }
 
