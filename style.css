@@ -69,12 +69,12 @@ img {
 }
 
 
-.cat-list li img {
-    width: 100%;
-    height: auto;
+.cat-list li {
+    width: calc((100% - 40px) / 3);
+    /* Розділити доступний простір на 3 колонки з проміжком у 40 пікселів */
+    overflow: hidden;
+    border-radius: 16px;
 }
-
-
 /*  
 .container{
     width: 944px;
