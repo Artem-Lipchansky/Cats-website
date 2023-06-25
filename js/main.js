@@ -9,10 +9,25 @@
 
 
 const title = document.querySelector('.cats-title')
-console.log(title);
 
-title.style.cssText = "color: green; font-size: 70px";
-title.style.fontSize = "80px";
+const logotype = document.querySelector('.site-logo img')
+const body = document.querySelector('.site-logo img')
+console.log(logotype);
+
+
+function onLogoClick() {
+
+}
+ 
+logotype.addEventListener('click', onLogoClick)
+
+
+// title.classList.remove('cats-title')
+
+// console.log(title);
+
+// title.style.cssText = "color: green; font-size: 70px";
+// title.style.fontSize = "80px";
 
 
 // console.dir(document);
