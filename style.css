@@ -282,3 +282,7 @@ img {
     color: #ffffff;
     text-align: right;
 }
+
+.is-hidden {
+    display:none;
+}

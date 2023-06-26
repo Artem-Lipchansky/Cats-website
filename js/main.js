@@ -12,15 +12,26 @@ const title = document.querySelector('.cats-title');
 
 const logotype = document.querySelector('.site-logo img');
 const body = document.querySelector('body');
+
+
+
 console.log(logotype);
 
 
 
 function onLogoClick() {
-    body.style.backgroundColor = 'blue';
+    logotype.classList.toggle('is-hidden');
 }
  
 title.addEventListener('click', onLogoClick);
+
+
+const photoPicture = document.querySelector('.photo-picture');
+
+function onPictureClick() {
+    photoPicture.src = "https://picsum.photos/200/300";
+}
+photoPicture.addEventListener('click', onPictureClick);
 
 
 // title.classList.remove('cats-title')
