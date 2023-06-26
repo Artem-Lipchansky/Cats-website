@@ -20,16 +20,18 @@ console.log(logotype);
 
 
 function onLogoClick() {
-    logotype.classList.toggle('is-hidden');
+    logotype.classList.toggle("is-hidden");
 }
  
-title.addEventListener('click', onLogoClick);
+title.addEventListener("click", onLogoClick);
 
 
-const photoPicture = document.querySelector('.photo-picture');
+const photoPicture = document.querySelector(".photo-picture");
 
 function onPictureClick() {
     photoPicture.src = "https://picsum.photos/200/300";
+    photoPicture.width = "288";
+    photoPicture.height = "360";
 }
 photoPicture.addEventListener('click', onPictureClick);
 
