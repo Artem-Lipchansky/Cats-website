@@ -26,14 +26,14 @@ function onLogoClick() {
 title.addEventListener("click", onLogoClick);
 
 
-const photoPicture = document.querySelector(".photo-picture");
+const catPhoto = document.querySelector(".cat-photo");
 
-function onPictureClick() {
-    photoPicture.src = "https://picsum.photos/200/300";
-    photoPicture.width = "288";
-    photoPicture.height = "360";
+function onPhotoClick() {
+  catPhoto.src = "https://picsum.photos/seed/picsum/200/300";
+  catPhoto.width = "288";
+  catPhoto.height = "360";
 }
-photoPicture.addEventListener('click', onPictureClick);
+catPhoto.addEventListener("click", onPhotoClick);
 
 
 // title.classList.remove('cats-title')
