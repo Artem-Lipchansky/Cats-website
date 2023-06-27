@@ -59,3 +59,8 @@ catPhoto.addEventListener("click", onPhotoClick);
 
 
 
+const slider = document.querySelector('body');
+
+new Siema = ({
+
+});
