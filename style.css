@@ -69,18 +69,25 @@ img {
 }
 
 
-.cat-list li {
-    width: calc((100% - 40px) / 3);
-    /* Розділити доступний простір на 3 колонки з проміжком у 40 пікселів */
-    overflow: hidden;
-    border-radius: 16px;
-}
+
 /*  
 .container{
     width: 944px;
     margin-left: auto;
     margin-right: auto;
 }*/
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+
+
+}
+
+
+
 
 .container {
     width: 960px;
@@ -90,14 +97,7 @@ img {
     margin-right: auto;
 }
 
-.page-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px;
-    
-    
-}
+
 
 .site-logo {
     display: flex;
@@ -110,6 +110,9 @@ img {
     color: #f07f2e;
     text-decoration: none;
 }
+
+
+/* ======================PAGE================================ */
 
 .page-nav{
     display: flex;
@@ -127,14 +130,34 @@ img {
 }
 
 
-.hero-btn{
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+
+
+}
+
+
+
+
+
+
+
+
+/* =====================================HERO================================== */
+
+
+
+.hero-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: 40px;
     height: 40px;
     border: none;
-    background-color:rgba(0, 0, 0, 0.3); 
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -148,55 +171,6 @@ img {
 
 .hero-btn.prev {
     left: 36px;
-}
-
-
-.section {
-    margin-top: 60px;
-}
-
-.section-title {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 40px;
-    letter-spacing: 0.5px;
-    color: #2c2c2c;
-}
-
-.section-text {
-    margin-top: 8px;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    color: #2c2c2c;
-}
-
-.cat-list {
-    display: flex;
-    gap: 40px;
-    margin-top: 40px;
-}
-
-.cat-list li {
-    overflow: hidden;
-    border-radius: 16px;
-}
-
-.cat-list li:hover {
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
-}
-
-.cat-list .content {
-    padding: 16px 8px 24px 8px;
-}
-
-.cat-list h3 {
-    margin-bottom: 8px;
-}
-
-.cat-list p {
-    line-height: 1.5;
-    letter-spacing: 0.5px;
-    color: #2c2c2c;
 }
 
 
@@ -229,6 +203,29 @@ img {
     color: #F07F2E;
 }
 
+/* ==========================SECTION====================== */
+
+
+
+.section {
+    margin-top: 60px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    color: #2c2c2c;
+}
+
+.section-text {
+    margin-top: 8px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #2c2c2c;
+}
+
 .section-title{
     font-weight: 700;
         font-size: 24px;
@@ -246,6 +243,54 @@ img {
             color: #2c2c2c;
         
 }
+
+
+.section{
+    margin-top: 60px;
+}
+
+
+/* =======================CAT====================== */
+
+
+.cat-list li {
+    width: calc((100% - 40px) / 3);
+    /* Розділити доступний простір на 3 колонки з проміжком у 40 пікселів */
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+
+.cat-list {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.cat-list li {
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.cat-list li:hover {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.cat-list .content {
+    padding: 16px 8px 24px 8px;
+}
+
+.cat-list h3 {
+    margin-bottom: 8px;
+}
+
+.cat-list p {
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #2c2c2c;
+}
+
+
 
 .cat-list {
     display: flex;
@@ -280,17 +325,12 @@ img {
         letter-spacing: 0.5px;
 }
 
-.section{
-    margin-top: 60px;
-}
-
-.page-footer{
-    height: 300px;
-    background-color: blue;
-}
 
 
 
+
+
+/* ==========================GALLERY============================ */
 
 
 .gallery {
@@ -314,7 +354,7 @@ img {
 }
 
 
-
+/* ==========================FOOTER================= */
 
 
 .page-footer {
@@ -329,7 +369,10 @@ img {
     justify-content: space-between;
     align-items: center;
 }
-
+.page-footer{
+    height: 300px;
+    background-color: blue;
+}
 
 
 .social-links svg:hover {
@@ -348,7 +391,7 @@ img {
     align-items: center;
 }
 
-/* ==========================FOOTER================= */
+
 .page-footer {
     margin-top: 60px;
     padding-top: 48px;
@@ -371,6 +414,10 @@ img {
         line-height: 24px;
         letter-spacing: 0.5px;
 }
+
+
+
+/* =====================SOCIAL-LINKS=============== */
 .social-links svg{
     width: 16px;
     height: 16px;
