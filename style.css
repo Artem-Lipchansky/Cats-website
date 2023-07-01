@@ -208,9 +208,7 @@ color: var(--white, #FFF);
 
 }
 
-.page-nav a:hover{
-    color: #F07F2E;
-}
+
 
 /* ==========================SECTION====================== */
 
@@ -398,6 +396,10 @@ color: var(--white, #FFF);
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.page-nav a:hover {
+    color: #F07F2E;
 }
 
 
