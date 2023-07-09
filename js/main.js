@@ -59,8 +59,27 @@ catPhoto.addEventListener("click", onPhotoClick);
 
 
 
-const slider = document.querySelector('body');
+ const slider = document.querySelector(".hero-list");
 
-new Siema = ({
+const next = document.querySelector(".next");
+const prev = document.querySelector(".prev");
 
+const mySiema = new Siema({
+  selector: slider,
+  loop: true,
+  duration: 1000,
+  easing: 'cubic-bezier(.17,.67,.32,1.34)',
+  threshold: 100
 });
+
+
+function onNextClick() {
+  mySiema.next();
+}
+
+function onPrevClick() {
+  mySiema.prev();
+}
+
+next.addEventListener('click', onNextClick);
+prev.addEventListener('click', onPrevClick);
