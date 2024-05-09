@@ -8,7 +8,7 @@
 
 
 
-const title = document.querySelector('.cats-title');
+const title = document.querySelector ('.cats-title');
 
 const logotype = document.querySelector('.site-logo img');
 const body = document.querySelector('body');
