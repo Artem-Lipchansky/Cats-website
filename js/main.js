@@ -1,10 +1,4 @@
-// const myName = "Artem";
 
-// console.log("Hello, world!");
-// console.log(myName);
-// // console.log("Artem");
-// console.log(30 + 39);
-// console.log("Good morning");
 
 
 
@@ -36,26 +30,7 @@ function onPhotoClick() {
 catPhoto.addEventListener("click", onPhotoClick);
 
 
-// title.classList.remove('cats-title')
 
-// console.log(title);
-
-// title.style.cssText = "color: green; font-size: 70px";
-// title.style.fontSize = "80px";
-
-
-// console.dir(document);
-
-
-
-// String
-// Number
-// Boolean
-// null
-// undefined
-// Symbol
-// BigInt
-// Object
 
 
 
@@ -94,3 +69,37 @@ const lightbox = new SimpleLightbox('.gallery a', {
 
 
   AOS.init();
+
+
+
+  // =========================ANOTHER-CODE=============================//
+
+  // const myName = "Artem";
+
+// console.log("Hello, world!");
+// console.log(myName);
+// // console.log("Artem");
+// console.log(30 + 39);
+// console.log("Good morning");
+
+
+// title.classList.remove('cats-title')
+
+// console.log(title);
+
+// title.style.cssText = "color: green; font-size: 70px";
+// title.style.fontSize = "80px";
+
+
+// console.dir(document);
+
+
+
+// String
+// Number
+// Boolean
+// null
+// undefined
+// Symbol
+// BigInt
+// Object
